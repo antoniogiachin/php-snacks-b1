@@ -10,14 +10,14 @@
 
     // trasformo stringa in array, ogni elemento si forma all'occorrenza del punto
     $paragrafoSuddiviso = explode('.', $paragrafo);
-    var_dump($paragrafoSuddiviso);
+    // var_dump($paragrafoSuddiviso);
     
     //variabile vuota testo diviso
     $testoDiviso='';
 
     // ciclo array con paragrafi
     for ($i=0; $i < count($paragrafoSuddiviso) -1 ; $i++) { 
-        $testoDiviso .= "<p>" . $paragrafoSuddiviso[$i] . "</p> ";
+        $testoDiviso .= "<p>  $paragrafoSuddiviso[$i]. </p> ";
     }
     
 
