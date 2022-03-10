@@ -10,10 +10,10 @@
 
     // trasformo stringa in array, ogni elemento si forma all'occorrenza del punto
     $paragrafoSuddiviso = explode('.', $paragrafo);
-    echo "<pre>";
-    var_dump($paragrafoSuddiviso);
-    echo "</pre>";
-    
+    // echo "<pre>";
+    // var_dump($paragrafoSuddiviso);
+    // echo "</pre>";
+
     //variabile vuota testo diviso
     $testoDiviso='';
 
